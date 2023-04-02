@@ -1,0 +1,38 @@
+body{
+    background-color:#008080;
+    font-family: 'Delicious Handrawn', cursive;
+    animation-name: colours;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    font-size: 50px;
+    background-color: #00cccc;
+}
+
+#show_sketch{
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.btn-danger{
+    font-size: 25px;
+}
+
+canvas{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #014e4e;
+}
+
+@keyframes colours{
+    from{background-color:  #008080;}
+    to{background-color:  #9900cc;}
+}
